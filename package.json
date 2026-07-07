@@ -1,0 +1,26 @@
+{
+  "name": "darkstar-whatsapp-loader",
+  "version": "1.0.0",
+  "description": "Darkstar WhatsApp Auto-Messaging Tool using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "darkstar",
+    "auto-sender",
+    "baileys",
+    "automation"
+  ],
+  "author": "Sahil Khan",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.18.4",
+    "express-fileupload": "^1.4.0",
+    "fs-extra": "^11.1.1",
+    "pino": "^8.14.1"
+  }
+}
